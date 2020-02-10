@@ -1,0 +1,72 @@
+{
+  "id": "970978",
+  "name": "SUD",
+  "font_family": "iconfont",
+  "css_prefix_text": "el-icon-third-",
+  "description": "项目icon",
+  "glyphs": [
+    {
+      "icon_id": "7008894",
+      "name": "barrage",
+      "font_class": "barrage",
+      "unicode": "e6e3",
+      "unicode_decimal": 59107
+    },
+    {
+      "icon_id": "7008905",
+      "name": "close",
+      "font_class": "close",
+      "unicode": "e6e9",
+      "unicode_decimal": 59113
+    },
+    {
+      "icon_id": "7008915",
+      "name": "createtask",
+      "font_class": "createtask",
+      "unicode": "e6ef",
+      "unicode_decimal": 59119
+    },
+    {
+      "icon_id": "7008923",
+      "name": "dynamic",
+      "font_class": "dynamic",
+      "unicode": "e6f4",
+      "unicode_decimal": 59124
+    },
+    {
+      "icon_id": "7008964",
+      "name": "manage",
+      "font_class": "manage",
+      "unicode": "e70b",
+      "unicode_decimal": 59147
+    },
+    {
+      "icon_id": "7008979",
+      "name": "people",
+      "font_class": "people",
+      "unicode": "e715",
+      "unicode_decimal": 59157
+    },
+    {
+      "icon_id": "7009047",
+      "name": "transaction_fill",
+      "font_class": "transaction_fill",
+      "unicode": "e748",
+      "unicode_decimal": 59208
+    },
+    {
+      "icon_id": "7009054",
+      "name": "decoration_fill",
+      "font_class": "decoration_fill",
+      "unicode": "e74f",
+      "unicode_decimal": 59215
+    },
+    {
+      "icon_id": "7009061",
+      "name": "commodity",
+      "font_class": "commodity",
+      "unicode": "e764",
+      "unicode_decimal": 59236
+    }
+  ]
+}
