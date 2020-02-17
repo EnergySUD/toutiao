@@ -1,27 +1,31 @@
 <template>
-	<div class="home">
-		<div> 我不知打 a </div>
-		<img alt="Vue logo" src="../assets/logo.png">
-		<HelloWorld msg="Welcome to Your Vue.js App 122" />
-		<div> 你知道吗？ </div>
-		<i class="iconfont el-icon-third-people"></i>
-		<div>
-			<i class="iconfont el-icon-third-createtask"></i>
-			<i class="iconfont el-icon-third-barrage"></i>
-			<i class="iconfont el-icon-third-createtask"></i>
-			<i class="iconfont el-icon-third-people"></i>
-		</div>
+	<div class="index">
+		<su-top activeType='0'></su-top>
+		<su-tab activeType='0'></su-tab>
+		<su-tabbar active="0"></su-tabbar>
 	</div>
 </template>
 
 <script>
 	// @ is an alias to /src
-	import HelloWorld from '@/components/HelloWorld.vue'
+	import suTop from '@/components/Top/index.vue'
+	import suTab from '@/components/Tab/index.vue'
+	import suTabbar from '@/components/Tabbar/index.vue'
+	
+	
 
 	export default {
 		name: 'index',
 		components: {
-			HelloWorld
+			suTop,
+			suTab,
+			suTabbar,
+			
+		},
+		data(){
+			return {
+				
+			}
 		},
 		created() {
 			this.getData();
@@ -36,7 +40,9 @@
 
 	}
 </script>
-<style scoped>
+<style scoped lang="scss">
 	@import url("../assets/iconfont/iconfont.css");
-	
+	.index{
+		margin:3.125rem 0 3.125rem;
+	}
 </style>

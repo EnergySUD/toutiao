@@ -7,23 +7,21 @@
 <style>
 	#app {
 		/* filter: grayscale(100%); */
-		font-family: 'Avenir', Helvetica, Arial, sans-serif;
+		font-family: PingFang SC, 'Helvetica Neue', Arial, sans-serif;
 		-webkit-font-smoothing: antialiased;
 		-moz-osx-font-smoothing: grayscale;
-		text-align: center;
-		color: #2c3e50;
+		font-size: 16px;
 	}
-
-	#nav {
-		padding: 30px;
+	*{
+		padding: 0;
+		margin: 0;
+		
 	}
-
-	#nav a {
-		font-weight: bold;
-		color: #2c3e50;
+	ul li{
+		list-style: none;
 	}
-
-	#nav a.router-link-exact-active {
-		color: #42b983;
+	a{
+		text-decoration: none;
+		color: #000000;
 	}
 </style>

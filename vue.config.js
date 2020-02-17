@@ -1,3 +1,9 @@
+const path = require("path");
+
+function resolve(dir) {
+    return path.join(__dirname, dir)
+}
+
 module.exports = {
 	// 基本路径
 	publicPath: "./",
@@ -19,6 +25,16 @@ module.exports = {
 		requireModuleExtension:true,
 	},
 	chainWebpack: config => {
+		config
+			.entry('index')
+			.end();
+		// 配置别名
+		config.resolve.alias
+			.set("@", resolve("src"))
+			.set("@img", resolve("src/assets/images"))
+			.set("@css", resolve("src/assets/styles/css"))
+			.set("@scss", resolve("src/assets/styles/scss"))
+			.set("@iconfont", resolve("src/assets/iconfont"));
 		// 移除 prefetch 插件
 		config.plugins.delete('prefetch'),
 		// 移除 preload 插件
